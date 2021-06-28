@@ -37,7 +37,7 @@ SEC4SR is designed to be modular, flexible and extensible so that new models, da
 
 
 ## DAC
-We provide five datasets, namely, Spk10_enroll, Spk10_test, Spk10_imposter, Spk251_train and Spk_251_test. The code will download them automatically. You can also manully download them using the follwing link:
+We provide five datasets, namely, Spk10_enroll, Spk10_test, Spk10_imposter, Spk251_train and Spk_251_test. The code will download them automatically. You can also manually download them using the follwing links:
 
 [Spk10_enroll, 18MB, MD5:0e90fb00b69989c0dde252a585cead85](https://drive.google.com/uc?id=1BBAo64JOahk0F3yBAovnRLZ1NvjwBy7y&export\=download)
 
@@ -52,5 +52,5 @@ We provide five datasets, namely, Spk10_enroll, Spk10_test, Spk10_imposter, Spk2
 # Code & Contributions
 The source code of SEC4SR is available at [Code of SEC4SR](https://github.com/SEC4SR/SEC4SR).
 
-New models, datasets, attacks and defenses are strongly welcome to be integrated into SEC4SR. If you want to do so, you can make a pull request or contant us (email adress not available for anonymous submissions).
+New models, datasets, attacks and defenses are strongly welcome to be integrated into SEC4SR. If you want to do so, you can make a pull request or contant us (email address not available for anonymous submissions).
 
