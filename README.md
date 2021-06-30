@@ -68,23 +68,53 @@ All these techniques are as standalone wrappers so that they can be easily plugg
 # Empirical Study
 Using SEC4SR, we perform the largest-scale empirical study on adversarial attacks and defenses in SR, involving 23 defenses, 15 attacks, and 4 attack settings. Our study provides lots of useful insights and findings that may advance research on adversarial examples in SR and assist the maintainers of SRSs to deploy proper defense solutions to enhance their systems. The main results are shown below:
 
-## How weak SRSs are under adversarial attacks?
+## Weakness of SRSs under adversarial attacks
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="figure/untargeted-attack">
+    src="figure/untargeted-attack.jpg">
     <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    <!-- <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">Overview of SEC4SR</div>
+    padding: 2px;">Overview of SEC4SR</div> -->
 </center>
 
-##  How effective are the transformations under non-adaptive attacks where the adversary is unaware of the defenses?
+## Defense under non-adaptive attacks
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="figure/non-adaptive-attack.jpg">
+    <br>
+    <!-- <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">Overview of SEC4SR</div> -->
+</center>
 
-## Do the transformations remain effective when the adversary owns complete knowledge of both the model and defense, i.e., adaptive attacks?
+## Defense under adaptive attacks
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="figure/adaptive-attack.jpg">
+    <br>
+    <!-- <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">Overview of SEC4SR</div> -->
+</center>
 
-## Can a combination of a transformation with adversarial training yields a stronger defense?
+## Combination of transformation with adversarial training
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="figure/adver-train.jpg">
+    <br>
+    <!-- <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">Overview of SEC4SR</div> -->
+</center>
 
 # Code & Contributions
 The source code of SEC4SR is available at [Code of SEC4SR](https://github.com/SEC4SR/SEC4SR).
