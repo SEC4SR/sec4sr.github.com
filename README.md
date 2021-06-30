@@ -33,11 +33,14 @@ SEC4SR is designed to be modular, flexible and extensible so that new models, da
     padding: 2px;">Overview of SEC4SR</div>
 </center>
 
-<!-- ## MC --> 
+## MC 
+MC contains three state-of-the-art embedding-based speaker recognition models, i.e., ivector-PLDA, xvector-PLDA and AudioNet. Xvector-PLDA and AudioNet are based on neural networks while ivector-PLDA on statistic model (i.e Gaussian Mixture Model).
+
+The flexibility and extensibility of SEC4SR make it easy to add new models. Just wrap the model as `torch.nn.Module` and implement `make_decision` abstract method. See `model/Model.py` for detail.
 
 
 ## DAC
-We provide five datasets, namely, Spk10_enroll, Spk10_test, Spk10_imposter, Spk251_train and Spk_251_test. The code will download them automatically. You can also manually download them using the follwing links:
+We provide five datasets, namely, Spk10_enroll, Spk10_test, Spk10_imposter, Spk251_train and Spk_251_test. They cover all the recognition tasks (i.e., CSI-E, CSI-NE, SV and OSI). The code will download them automatically. You can also manually download them using the follwing links:
 
 [Spk10_enroll, 18MB, MD5:0e90fb00b69989c0dde252a585cead85](https://drive.google.com/uc?id=1BBAo64JOahk0F3yBAovnRLZ1NvjwBy7y&export\=download)
 
@@ -48,6 +51,19 @@ We provide five datasets, namely, Spk10_enroll, Spk10_test, Spk10_imposter, Spk2
 [Spk251_train, 10GB, MD5:02bee7caf460072a6fc22e3666ac2187](https://drive.google.com/uc?id=1EytvKVbrPszsRJpwChXHaPtlyIHow4hD&export\=download)
 
 [Spk251_test, 1GB, MD5:182dd6b17f8bcfed7a998e1597828ed6](https://drive.google.com/uc?id=1iGcMPiPMzcCLI7xKJLwH1L0Ff_95-tmB&export\=download)
+
+To add new datasets, one just need to define a class inheriting from `torch.utils.data.Dataset`, just like `dataset/Dataset.py`.
+
+## AC
+SEC4SR currently incorporate four white-box attacks (FGSM, PGD, CW$_\infty$ and CW$_2$) and two black-box attacks (FAKEBOB and SirenAttack). To incorporate new attack algorithms, one just need to inhert from the class in `attack/Attack.py` and implement the abstract method `attack`. See `attack/Attack.py` for detail.
+
+## DEC
+To secure SRSs from adversarial attack, SEC4SR provides 2 robust training methods (FGSM and PGD adversarial training) and 22 speech/speaker-dedicated input transformation methods, including our feature-level approach FEATURE COMPRESSION. All input transformation methods are implemented as standalone python functions, making it easy to extend this methods.
+
+## ADAC
+To suport adaptive attacks, SEC4SR incorporate three techniques, i.e., BPDA, EOT and NES. BPDA (resp. EOT) is used to circumvent non-differentiable (randmized) defenses. NES can be exploited to estimate the gradient in black-box setting.
+
+All these techniques are as standalone wrappers so that they can be easily plugged into attacks to mount adaptive attacks.
 
 # Code & Contributions
 The source code of SEC4SR is available at [Code of SEC4SR](https://github.com/SEC4SR/SEC4SR).
