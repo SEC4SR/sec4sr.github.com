@@ -66,13 +66,13 @@ To suport adaptive attacks, SEC4SR incorporate three techniques, i.e., BPDA, EOT
 All these techniques are as standalone wrappers so that they can be easily plugged into attacks to mount adaptive attacks.
 
 # Empirical Study
-Using SEC4SR, we perform the largest-scale empirical study on adversarial attacks and defenses in SR, involving 23 defenses, 15 attacks, and 4 attack settings. Our study provides lots of useful insights and findings that may advance research on adversarial examples in SR and assist the maintainers of SRSs to deploy proper defense solutions to enhance their systems. The main results are shown below:
+Using SEC4SR, we perform the largest-scale empirical study on adversarial attacks and defenses in SR, involving 23 defenses, 15 attacks, and 4 attack settings. Our study provides lots of useful insights and findings that may advance research on adversarial examples in SR and assist the maintainers of SRSs to deploy proper defense solutions to enhance their systems. The main results are shown below:
 
 ## Weakness of SRSs under adversarial attacks
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="figure/untargeted-attack.jpg">
+    src="figure/untargeted-attack-2.jpg">
     <br>
     <!-- <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
