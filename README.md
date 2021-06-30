@@ -47,7 +47,7 @@ We provide five datasets, namely, Spk10_enroll, Spk10_test, Spk10_imposter, Spk2
 
 [Spk251_train, 10GB, MD5:02bee7caf460072a6fc22e3666ac2187](https://drive.google.com/uc?id=1EytvKVbrPszsRJpwChXHaPtlyIHow4hD&export\=download)
 
-[Spk251_test, 1GB, MD5:182dd6b17f8bcfed7a998e1597828ed6](https://drive.google.com/uc?id=1JDNYieW7qrMgFWgX0PfFnjrwIai4muBZ&export\=download)
+[Spk251_test, 1GB, MD5:182dd6b17f8bcfed7a998e1597828ed6](https://drive.google.com/uc?id=1iGcMPiPMzcCLI7xKJLwH1L0Ff_95-tmB&export\=download)
 
 # Code & Contributions
 The source code of SEC4SR is available at [Code of SEC4SR](https://github.com/SEC4SR/SEC4SR).
