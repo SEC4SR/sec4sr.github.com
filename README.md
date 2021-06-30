@@ -72,7 +72,7 @@ Using SEC4SR, we perform the largest-scale empirical study on adversarial attack
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="figure/untargeted-attack-2.jpg">
+    src="figure/untargeted-attack-3.jpg">
     <br>
     <!-- <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
