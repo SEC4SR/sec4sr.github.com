@@ -36,7 +36,7 @@ SEC4SR is designed to be modular, flexible and extensible so that new models, da
 ## MC 
 MC contains three state-of-the-art embedding-based speaker recognition models, i.e., ivector-PLDA, xvector-PLDA and AudioNet. Xvector-PLDA and AudioNet are based on neural networks while ivector-PLDA on statistic model (i.e Gaussian Mixture Model).
 
-The flexibility and extensibility of SEC4SR make it easy to add new models. Just wrap the model as `torch.nn.Module` and implement `make_decision` abstract method. See `model/Model.py` for detail.
+The flexibility and extensibility of SEC4SR make it easy to add new models. Just wrap the model as `torch.nn.Module` and implement `forward`, `score` and `make_decision` methods.
 
 
 ## DAC
@@ -55,15 +55,15 @@ We provide five datasets, namely, Spk10_enroll, Spk10_test, Spk10_imposter, Spk2
 To add new datasets, one just need to define a class inheriting from `torch.utils.data.Dataset`, just like `dataset/Dataset.py`.
 
 ## AC
-SEC4SR currently incorporate four white-box attacks (FGSM, PGD, CW$_\infty$ and CW$_2$) and two black-box attacks (FAKEBOB and SirenAttack). To incorporate new attack algorithms, one just need to inhert from the class in `attack/Attack.py` and implement the abstract method `attack`. See `attack/Attack.py` for detail.
+SEC4SR currently incorporate four white-box attacks (FGSM, PGD, CW$_\infty$ and CW$_2$) and two black-box attacks (FAKEBOB and SirenAttack). To incorporate new attack algorithms, one just need to inhert from the class in `attack/Attack.py` and implement the abstract method `attack`.
 
 ## DEC
-To secure SRSs from adversarial attack, SEC4SR provides 2 robust training methods (FGSM and PGD adversarial training) and 22 speech/speaker-dedicated input transformation methods, including our feature-level approach FEATURE COMPRESSION. All input transformation methods are implemented as standalone python functions, making it easy to extend this methods.
+To secure SRSs from adversarial attack, SEC4SR provides 2 robust training methods (FGSM and PGD adversarial training) and 22 speech/speaker-dedicated input transformation methods, including our feature-level approach FEATURE COMPRESSION (FC). All input transformation methods are implemented as standalone python functions, making it easy to extend new methods.
 
 ## ADAC
-To suport adaptive attacks, SEC4SR incorporate three techniques, i.e., BPDA, EOT and NES. BPDA (resp. EOT) is used to circumvent non-differentiable (randmized) defenses. NES can be exploited to estimate the gradient in black-box setting.
+To suport adaptive attacks, SEC4SR incorporate three techniques, i.e., BPDA, EOT and NES. BPDA (resp. EOT) is used to circumvent non-differentiable (randmized) defenses. NES can be exploited to estimate the gradient in black-box setting (used in FAKEBOB attack).
 
-All these techniques are as standalone wrappers so that they can be easily plugged into attacks to mount adaptive attacks.
+All these adaptive attack techniques are implemented as standalone wrappers so that they can be easily plugged into attacks to mount adaptive attacks.
 
 # Empirical Study
 Using SEC4SR, we perform the largest-scale empirical study on adversarial attacks and defenses in SR, involving 23 defenses, 15 attacks, and 4 attack settings. Our study provides lots of useful insights and findings that may advance research on adversarial examples in SR and assist the maintainers of SRSs to deploy proper defense solutions to enhance their systems. The main results are shown below:
