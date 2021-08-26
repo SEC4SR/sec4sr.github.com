@@ -36,8 +36,9 @@ SEC4SR is designed to be modular, flexible and extensible so that new models, da
 ## MC 
 MC contains three state-of-the-art embedding-based speaker recognition models, i.e., ivector-PLDA, xvector-PLDA and AudioNet. Xvector-PLDA and AudioNet are based on neural networks while ivector-PLDA on statistic model (i.e Gaussian Mixture Model).
 
-The flexibility and extensibility of SEC4SR make it easy to add new models. Just wrap the model as `torch.nn.Module` and implement `forward`, `score` and `make_decision` methods.
-
+The flexibility and extensibility of SEC4SR make it easy to add new models. 
+<!-- Just wrap the model as `torch.nn.Module` and implement `forward`, `score` and `make_decision` methods. -->
+To add a new model, one can define a new subclass of the `torch.nn.Module` class and implement three methods: `forward`, `score`, and `make_decision` , then it can be evaluated using different attacks.
 
 ## DAC
 We provide five datasets, namely, Spk10_enroll, Spk10_test, Spk10_imposter, Spk251_train and Spk_251_test. They cover all the recognition tasks (i.e., CSI-E, CSI-NE, SV and OSI). The code will download them automatically. You can also manually download them using the follwing links:
@@ -52,13 +53,18 @@ We provide five datasets, namely, Spk10_enroll, Spk10_test, Spk10_imposter, Spk2
 
 [Spk251_test, 1GB, MD5:182dd6b17f8bcfed7a998e1597828ed6](https://drive.google.com/uc?id=1iGcMPiPMzcCLI7xKJLwH1L0Ff_95-tmB&export\=download)
 
-To add new datasets, one just need to define a class inheriting from `torch.utils.data.Dataset`, just like `dataset/Dataset.py`.
+<!-- To add new datasets, one just need to define a class inheriting from `torch.utils.data.Dataset`, just like `dataset/Dataset.py`. -->
+All our datasets are subclasses of the class `torch.utils.data.Dataset`.Hence, to add a new dataset, one just need to define a new subclass of `torch.utils.data.Dataset` and implement two methods: `__len__` and `__getitem__`, which defines the length and loading sequence of the dataset.
 
 ## AC
-SEC4SR currently incorporate four white-box attacks (FGSM, PGD, CW$_\infty$ and CW$_2$) and two black-box attacks (FAKEBOB and SirenAttack). To incorporate new attack algorithms, one just need to inhert from the class in `attack/Attack.py` and implement the abstract method `attack`.
+SEC4SR currently incorporate four white-box attacks (FGSM, PGD, CW$_\infty$ and CW$_2$) and two black-box attacks (FAKEBOB and SirenAttack). 
+<!-- To incorporate new attack algorithms, one just need to inhert from the class in `attack/Attack.py` and implement the abstract method `attack`. -->
+To add a new attack, one can define a new subclass of the abstract class `Attack` and implement the `attack` method. This design ensures that the `attack` methods in different concrete `Attack` classes have the same method signature, i.e., unified API.
 
 ## DEC
-To secure SRSs from adversarial attack, SEC4SR provides 2 robust training methods (FGSM and PGD adversarial training) and 22 speech/speaker-dedicated input transformation methods, including our feature-level approach FEATURE COMPRESSION (FC). All input transformation methods are implemented as standalone python functions, making it easy to extend new methods.
+To secure SRSs from adversarial attack, SEC4SR provides 2 robust training methods (FGSM and PGD adversarial training) and 22 speech/speaker-dedicated input transformation methods, including our feature-level approach FEATURE COMPRESSION (FC). 
+<!-- All input transformation methods are implemented as standalone python functions, making it easy to extend new methods. -->
+Since all our defenses are standalone functions, adding a new defense is straightforward, one just needs to implement it as a python function accepting the input audios or features as one of its arguments.
 
 ## ADAC
 To suport adaptive attacks, SEC4SR incorporate three techniques, i.e., BPDA, EOT and NES. BPDA (resp. EOT) is used to circumvent non-differentiable (randmized) defenses. NES can be exploited to estimate the gradient in black-box setting (used in FAKEBOB attack).
