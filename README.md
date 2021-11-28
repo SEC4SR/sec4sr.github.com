@@ -1,6 +1,6 @@
 
 # About
-This is the official webpage for paper **Defending against Audio Adversarial Examples on Speaker Recognition Systems** 
+This is the official webpage for paper ***Defending against Audio Adversarial Examples on Speaker Recognition Systems*** 
 where make the following main contributions:
 - We perform the largest-scale evaluation of defenses against adversarial attacks in the speaker recognition
 domain, involving **23** defenses and **15** attacks. Our study provides lots of useful insights and findings that could advance research on adversarial examples in this domain and assist the maintainers of SRSs to deploy suitable defense solutions to enhance their systems.
@@ -59,6 +59,7 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
     color: #999;
     padding: 2px;">QT and DS</div>
 </center>
+
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -69,6 +70,7 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
     color: #999;
     padding: 2px;">AT and AS</div>
 </center>
+
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -79,6 +81,7 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
     color: #999;
     padding: 2px;">MS and LPF</div>
 </center>
+
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -89,6 +92,7 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
     color: #999;
     padding: 2px;">BPF and OPUS</div>
 </center>
+
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -99,6 +103,7 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
     color: #999;
     padding: 2px;">SPEEX and AMR</div>
 </center>
+
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
