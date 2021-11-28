@@ -4,7 +4,7 @@
 
 # About
 This is the official webpage for paper ***Defending against Audio Adversarial Examples on Speaker Recognition Systems*** 
-where make the following main contributions:
+where we make the following main contributions:
 - We perform the largest-scale evaluation of defenses against adversarial attacks in the speaker recognition
 domain, involving **23** defenses and **15** attacks. Our study provides lots of useful insights and findings that could advance research on adversarial examples in this domain and assist the maintainers of SRSs to deploy suitable defense solutions to enhance their systems.
 - We propose a new type of feature-level transformations
@@ -119,5 +119,16 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
 </center>
 
 # Platform: SEC4SR
-Want to re-produce our experimental results or do something new with our platform? 
+Want to re-produce our experimental results, do something new with our platform or even extend SEC4SR? 
 Go to [Code for SEC4SR](https://github.com/SEC4SR/SEC4SR) for detailed instructions.
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="figure/overview-platform.jpg">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">Overview of SEC4SR</div>
+</center>
