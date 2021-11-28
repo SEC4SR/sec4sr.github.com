@@ -119,9 +119,7 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
 </center>
 
 # Platform: SEC4SR
-Want to re-produce our experimental results, do something new with our platform or even extend SEC4SR? 
-Go to [Code for SEC4SR](https://github.com/SEC4SR/SEC4SR) for detailed instructions.
-
+To perform the above empirical study, we establish a **SEC**urity analysis platform **FOR** **S**peaker **R**ecognition (SEC4SR). 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -132,3 +130,6 @@ Go to [Code for SEC4SR](https://github.com/SEC4SR/SEC4SR) for detailed instructi
     color: #999;
     padding: 2px;">Overview of SEC4SR</div>
 </center>
+
+Want to re-produce our experimental results, do something new with our platform or even extend SEC4SR? 
+Go to [Code for SEC4SR](https://github.com/SEC4SR/SEC4SR) for detailed instructions.
