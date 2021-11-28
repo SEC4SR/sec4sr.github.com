@@ -32,7 +32,7 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">QT and DS</div>
+    padding: 2px;"></div>
 </center>
 
 ## Transformation+Adversarial-Training against Adaptive Attacks
@@ -44,7 +44,7 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">QT and DS</div>
+    padding: 2px;"></div>
 </center>
 
 # Additional Results (not appear in the paper)
@@ -57,7 +57,7 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">QT and DS</div>
+    padding: 2px;"></div>
 </center>
 
 <center>
@@ -68,7 +68,7 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">AT and AS</div>
+    padding: 2px;"></div>
 </center>
 
 <center>
@@ -79,7 +79,7 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">MS and LPF</div>
+    padding: 2px;"></div>
 </center>
 
 <center>
@@ -90,7 +90,7 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">BPF and OPUS</div>
+    padding: 2px;"></div>
 </center>
 
 <center>
@@ -101,7 +101,7 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">SPEEX and AMR</div>
+    padding: 2px;"></div>
 </center>
 
 <center>
@@ -112,7 +112,7 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">AAC-V and AAC-C</div>
+    padding: 2px;"></div>
 </center>
 
 # Platform: SEC4SR
