@@ -1,4 +1,8 @@
-## About
+<!-- # SEC4SR
+## A SECurity analysis platform for Speaker Recognition
+### under construction. stay tuned! :)  -->
+
+# About
 This is the official webpage for paper ***Defending against Audio Adversarial Examples on Speaker Recognition Systems*** 
 where make the following main contributions:
 - We perform the largest-scale evaluation of defenses against adversarial attacks in the speaker recognition
@@ -9,8 +13,8 @@ dedicated for speaker recognition, called **Feature Compression** (**FeCo**). Th
 and comprehensive evaluation of different adversarial
 attacks and defenses in the speaker recognition domain. It features mainstream SRSs, proper voice datasets, white-box and black-box attacks, techniques for mounting adaptive attacks, evaluation metrics and diverse defense solutions. We release our platform to foster further research in this direction.
 
-## Empirical Study Result
-### Transformation against Non-adaptive Attacks
+# Empirical Study Result
+## Transformation against Non-adaptive Attacks
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -22,7 +26,7 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
     padding: 2px;"></div>
 </center>
 
-### Transformation against Adaptive Attacks
+## Transformation against Adaptive Attacks
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -34,7 +38,7 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
     padding: 2px;"></div>
 </center>
 
-### Transformation+Adversarial-Training against Adaptive Attacks
+## Transformation+Adversarial-Training against Adaptive Attacks
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -46,8 +50,8 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
     padding: 2px;"></div>
 </center>
 
-## Additional Results (not appear in the paper)
-### *Tuning the Parameters of Transformations* in Appendix B
+# Additional Results (not appear in the paper)
+## *Tuning the Parameters of Transformations* in Appendix B
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -114,6 +118,6 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
     padding: 2px;"></div>
 </center>
 
-## Platform: SEC4SR
+# Platform: SEC4SR
 Want to re-produce our experimental results or do something new with our platform? 
 Go to [Code for SEC4SR](https://github.com/SEC4SR/SEC4SR) for detailed instructions.
