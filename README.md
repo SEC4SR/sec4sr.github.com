@@ -55,7 +55,7 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
 </center>
 
 # Additional Results (not appear in the paper)
-## *Tuning the Parameters of Transformations* in Appendix B
+## *Appendix B. Tuning the Parameters of Transformations*
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
