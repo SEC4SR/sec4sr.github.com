@@ -3,8 +3,12 @@
 ### under construction. stay tuned! :)  -->
 
 # About
-This is the official webpage for paper ***Defending against Audio Adversarial Examples on Speaker Recognition Systems*** 
-where we make the following main contributions:
+This is the official webpage for paper ***Defending against Audio Adversarial Examples on Speaker Recognition Systems***. 
+
+In this paper, we systematically investigate transformation and adversarial training based defenses for speaker recognition systems (SRSs) 
+and thoroughly evaluate their effectiveness using both non-adaptive and adaptive attacks under the same settings. 
+
+In summary, we make the following main contributions:
 - We perform the largest-scale evaluation of defenses against adversarial attacks in the speaker recognition
 domain, involving **23** defenses and **15** attacks. Our study provides lots of useful insights and findings that could advance research on adversarial examples in this domain and assist the maintainers of SRSs to deploy suitable defense solutions to enhance their systems.
 - We propose a new type of feature-level transformations
@@ -120,6 +124,7 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
 
 # Platform: SEC4SR
 To perform the above empirical study, we establish a **SEC**urity analysis platform **FOR** **S**peaker **R**ecognition (SEC4SR). 
+
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
