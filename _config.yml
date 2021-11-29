@@ -13,3 +13,5 @@ github:
   is_project_page: true
   repository_url: https://github.com/SEC4SR/SEC4SR
   repository_name: SEC4SR Platform
+
+theme: jekyll-theme-hacker
