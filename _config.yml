@@ -1,7 +1,7 @@
 title: SEC4SR
 description: a SECurity evaluation platform FOR Speaker Recognition
 show_downloads: false
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
 
 github:
   zip_url: https://github.com/SEC4SR/SEC4SR/zipball/main
