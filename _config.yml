@@ -1,11 +1,7 @@
-# remote_theme: pages-themes/slate@v0.2.0
-# plugins:
-# - jekyll-remote-theme # add this line to the plugins list if you already have one
-
 title: SEC4SR
 description: a SECurity evaluation platform FOR Speaker Recognition
 show_downloads: false
-# theme: jekyll-theme-cayman
+theme: jekyll-theme-hacker
 
 github:
   zip_url: https://github.com/SEC4SR/SEC4SR/zipball/main
@@ -13,5 +9,3 @@ github:
   is_project_page: true
   repository_url: https://github.com/SEC4SR/SEC4SR
   repository_name: SEC4SR Platform
-
-theme: jekyll-theme-hacker
