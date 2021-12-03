@@ -4,8 +4,6 @@ show_downloads: false
 theme: jekyll-theme-hacker
 
 github:
-  zip_url: https://github.com/SEC4SR/SEC4SR/zipball/main
-  tar_url: https://github.com/SEC4SR/SEC4SR/tarball/main
   is_project_page: true
-  repository_url: https://github.com/SEC4SR/SEC4SR
+  repository_url: https://anonymous.4open.science/r/SEC4SR-AD54
   repository_name: SEC4SR Platform
