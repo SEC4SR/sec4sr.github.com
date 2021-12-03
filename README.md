@@ -2,6 +2,13 @@
 ## A SECurity analysis platform for Speaker Recognition
 ### under construction. stay tuned! :)  -->
 
+# Notice
+Our paper is under review now. 
+
+To keep anonymous, currently all the code links in this webpage point to our anonymous repository in [Anonymous Github](https://anonymous.4open.science/faq). 
+
+We will release the true link of our Github repository when the review process is over.
+
 # About
 This is the official webpage for paper ***Defending against Audio Adversarial Examples on Speaker Recognition Systems***. 
 
@@ -126,4 +133,5 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
 To perform the above empirical study, we establish a **SEC**urity evaluation platform **FOR** **S**peaker **R**ecognition (SEC4SR). 
 
 Want to re-produce our experimental results, do something new with our platform or even extend SEC4SR? 
-Go to [Code for SEC4SR](https://github.com/SEC4SR/SEC4SR) for detailed instructions.
+<!-- Go to [Code for SEC4SR](https://github.com/SEC4SR/SEC4SR) for detailed instructions. -->
+Go to [Code for SEC4SR](https://anonymous.4open.science/r/SEC4SR-AD54) for detailed instructions.
