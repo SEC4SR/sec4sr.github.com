@@ -146,6 +146,9 @@ We provides our audio files for percetibility measurement and other purposes.
     - Speech compression defenses: [[OPUS]](https://drive.google.com/uc?id=1qXvmigK5NfJdtV2GKSu-L9bm_29xlM5y&export=download) [[SPEEX]](https://drive.google.com/uc?id=13sqxpAtOOAdbAgj-tvexv3iEoV3kGbgW&export=download) [[AMR]](https://drive.google.com/uc?id=13nm9JoBlf-uj09tN9HaDOfhV0dG875r4&export=download) [[AAC-V]](https://drive.google.com/uc?id=1i2ZajGzABNuZNryy7RicSWWgRYnLVasr&export=download) [[AAC-C]](https://drive.google.com/uc?id=1UFXk2zNJ7SN5sn-83HCnFpozRlidMGWU&export=download) [[MP3-V]](https://drive.google.com/uc?id=1JyPp6Ya7ncSjeEHtnX8EZC7HJ5iVdR23&export=download) [[MP3-C]](https://drive.google.com/uc?id=1NiYKKMtwAL2JHoMLl83h1fjGloDbV_4G&export=download)
 
     - Feature-level defense: [[FeCo]](https://drive.google.com/uc?id=1bwz9WuDpv94tj77Zx_tJU_lwjQdwGZA7&export=download)
+ 
+For adversarial audios, after unzip, the directory *A-B/X/X-Y/Z* means the audios are crafted by the attack X with the attack paramter Y against the defense A with the defense parameter B on the speaker Z. 
+For example, FeCo-ok-kmeans-raw-0_2-L2/FGSM/FGSM-0_002-50/1998 means the audios are crafted by FGSM attack with $\varepsilon=0.002$ and EOT_size $r=50$ against the defense FeCo with the defense parameter $cl_m=kmeans$ and $cl_r=0.2$ on the speaker 1998. 
 
 # Platform: SEC4SR
 To perform the above empirical study, we establish a **SEC**urity evaluation platform **FOR** **S**peaker **R**ecognition (SEC4SR). 
