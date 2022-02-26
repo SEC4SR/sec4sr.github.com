@@ -1,3 +1,4 @@
+
 <!-- # SEC4SR
 ## A SECurity analysis platform for Speaker Recognition
 ### under construction. stay tuned! :)  -->
@@ -129,9 +130,26 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
     padding: 2px;"></div>
 </center>
 
+# Audio Files
+We provides our audio files for percetibility measurement and other purposes.
+
+- [Original audios (Spk10_test)](https://drive.google.com/uc?id=1WctqJtP5Es74-U7y3cFXqfHi7JkDz6g5&export=download)
+
+- [Adversarial audios produced by non-adaptive attacks](https://drive.google.com/uc?id=1CAOwwLsVYibEVdNXTwPVSIWP40Amuhr8&export=download)
+
+- Adversarial audios produced by adaptive attacks against different defenses:
+
+    - Time-domain defenses: [[QT]](https://drive.google.com/uc?id=1f9hAYRO1MIm-NNRdKmM44OAokPbMVs_z&export=download) [[AT]](https://drive.google.com/uc?id=1pDhJQFHk7puH7NFRzWBykLkwt-gQEFRr&export=download) [[AS]](https://drive.google.com/uc?id=1d7znPoTCkKQ-rzQrnrfZP1IxRZ7jOx4f&export=download) [[MS]](https://drive.google.com/uc?id=1TzuggGx3Xgb1czcGBv6Zq2KZzMygsvNd&export=download)
+
+    - Frequency-domain defenses: [[DS]](https://drive.google.com/uc?id=1iVFUA2nej9xu7W0Y759TtssvEjy9R7G0&export=download) [[LPF]](https://drive.google.com/uc?id=1Xg-fYEMDxAM0VkOX7gL0mQnOFHwyi-AS&export=download) [[BPF]](https://drive.google.com/uc?id=1bFgy94zh3xKRLlo5zpo1PgLS6EZrxnBw&export=download)
+
+    - Speech compression defenses: [[OPUS]](https://drive.google.com/uc?id=1qXvmigK5NfJdtV2GKSu-L9bm_29xlM5y&export=download) [[SPEEX]](https://drive.google.com/uc?id=13sqxpAtOOAdbAgj-tvexv3iEoV3kGbgW&export=download) [[AMR]](https://drive.google.com/uc?id=13nm9JoBlf-uj09tN9HaDOfhV0dG875r4&export=download) [[AAC-V]](https://drive.google.com/uc?id=1i2ZajGzABNuZNryy7RicSWWgRYnLVasr&export=download) [[AAC-C]](https://drive.google.com/uc?id=1UFXk2zNJ7SN5sn-83HCnFpozRlidMGWU&export=download) [[MP3-V]](https://drive.google.com/uc?id=1JyPp6Ya7ncSjeEHtnX8EZC7HJ5iVdR23&export=download) [[MP3-C]](https://drive.google.com/uc?id=1NiYKKMtwAL2JHoMLl83h1fjGloDbV_4G&export=download)
+
+    - Feature-level defense: [[FeCo]](https://drive.google.com/uc?id=1bwz9WuDpv94tj77Zx_tJU_lwjQdwGZA7&export=download)
+
 # Platform: SEC4SR
 To perform the above empirical study, we establish a **SEC**urity evaluation platform **FOR** **S**peaker **R**ecognition (SEC4SR). 
 
-Want to re-produce our experimental results, do something new with our platform or even extend SEC4SR? 
+Want to re-produce our experimental results, do something new with our platform, or even extend SEC4SR? 
 <!-- Go to [Code for SEC4SR](https://github.com/SEC4SR/SEC4SR) for detailed instructions. -->
 Go to [Code for SEC4SR](https://anonymous.4open.science/r/SEC4SR-AD54) for detailed instructions.
