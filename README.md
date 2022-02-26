@@ -133,7 +133,8 @@ attacks and defenses in the speaker recognition domain. It features mainstream S
 # Audio Files
 We provides our audio files for percetibility measurement and other purposes.
 
-- [Original audios (Spk10_test)](https://drive.google.com/uc?id=1WctqJtP5Es74-U7y3cFXqfHi7JkDz6g5&export=download)
+<!-- - [Original audios (Spk10_test)](https://drive.google.com/uc?id=1WctqJtP5Es74-U7y3cFXqfHi7JkDz6g5&export=download) -->
+- [Original audios](https://drive.google.com/uc?id=1WctqJtP5Es74-U7y3cFXqfHi7JkDz6g5&export=download)
 
 - [Adversarial audios produced by non-adaptive attacks](https://drive.google.com/uc?id=1CAOwwLsVYibEVdNXTwPVSIWP40Amuhr8&export=download)
 
