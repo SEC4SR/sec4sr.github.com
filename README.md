@@ -148,7 +148,7 @@ We provides our audio files for percetibility measurement and other purposes.
     - Feature-level defense: [[FeCo]](https://drive.google.com/uc?id=1bwz9WuDpv94tj77Zx_tJU_lwjQdwGZA7&export=download)
  
 For adversarial audios, after unzip, the directory *A-B/X/X-Y/Z* means the audios are crafted by the attack X with the attack paramter Y against the defense A with the defense parameter B on the speaker Z. 
-For example, FeCo-ok-kmeans-raw-0_2-L2/FGSM/FGSM-0_002-50/1998 means the audios are crafted by FGSM attack with $\varepsilon=0.002$ and EOT_size $r=50$ against the defense FeCo with the defense parameter $cl_m=kmeans$ and $cl_r=0.2$ on the speaker 1998. 
+For example, *FeCo-ok-kmeans-raw-0_2-L2/FGSM/FGSM-0_002-50/1998* means the audios are crafted by FGSM attack with $\varepsilon=0.002$ and EOT_size $r=50$ against the defense FeCo with the defense parameter $cl_m=kmeans$ and $cl_r=0.2$ on the speaker 1998. 
 
 # Platform: SEC4SR
 To perform the above empirical study, we establish a **SEC**urity evaluation platform **FOR** **S**peaker **R**ecognition (SEC4SR). 
