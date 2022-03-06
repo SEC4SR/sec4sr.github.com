@@ -6,7 +6,8 @@
 # Notice
 Our paper is under review now. 
 
-To keep anonymous, currently all the code links in this webpage point to our anonymous repository in [Anonymous Github](https://anonymous.4open.science/faq). 
+<!-- To keep anonymous, currently all the code links in this webpage point to our anonymous repository in [Anonymous Github](https://anonymous.4open.science/faq).  -->
+To keep anonymous, currently all the code links in this webpage point to our anonymous repository in [Anonymous Github](https://anonymous.4open.science/r/SEC4SR-AD54). 
 
 We will release the true link of our Github repository when the review process is over.
 
