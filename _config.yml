@@ -5,5 +5,6 @@ theme: jekyll-theme-hacker
 
 github:
   is_project_page: true
-  repository_url: https://anonymous.4open.science/r/SEC4SR-AD54
+  # repository_url: https://anonymous.4open.science/r/SEC4SR-AD54
+  repository_url: https://github.com/SEC4SR/SEC4SR
   repository_name: SEC4SR Platform
