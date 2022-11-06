@@ -12,7 +12,7 @@
 <!-- We will release the true link of our Github repository when the review process is over. -->
 
 # News
-The paper releasing **SEC4SR** has been accepted by IEEE Transactions on Dependable and Secure Computing (TDSC), 2022.
+- The paper releasing **SEC4SR** has been accepted by IEEE Transactions on Dependable and Secure Computing (TDSC), 2022.
 
 # About
 This is the official webpage for paper ***SEC4SR: A Security Analysis Platform for Speaker Recognition***. 
