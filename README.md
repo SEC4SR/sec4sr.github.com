@@ -15,7 +15,7 @@
 The paper releasing **SEC4SR** has been accepted by IEEE Transactions on Dependable and Secure Computing (TDSC), 2022.
 
 # About
-This is the official webpage for paper ***Defending against Audio Adversarial Examples on Speaker Recognition Systems***. 
+This is the official webpage for paper ***SEC4SR: A Security Analysis Platform for Speaker Recognition***. 
 
 In this paper, we systematically investigate transformation and adversarial training based defenses for speaker recognition systems (SRSs) 
 and thoroughly evaluate their effectiveness using both non-adaptive and adaptive attacks under the same settings. 
