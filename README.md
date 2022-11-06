@@ -11,6 +11,9 @@
 
 <!-- We will release the true link of our Github repository when the review process is over. -->
 
+# News
+The paper releasing **SEC4SR** has been accepted by IEEE Transactions on Dependable and Secure Computing (TDSC), 2022.
+
 # About
 This is the official webpage for paper ***Defending against Audio Adversarial Examples on Speaker Recognition Systems***. 
 
@@ -137,17 +140,17 @@ We provides our audio files for percetibility measurement and other purposes.
 <!-- - [Original audios (Spk10_test)](https://drive.google.com/uc?id=1WctqJtP5Es74-U7y3cFXqfHi7JkDz6g5&export=download) -->
 - [Original audios](https://drive.google.com/uc?id=1WctqJtP5Es74-U7y3cFXqfHi7JkDz6g5&export=download)
 
-- [Adversarial audios produced by non-adaptive attacks](https://drive.google.com/uc?id=1CAOwwLsVYibEVdNXTwPVSIWP40Amuhr8&export=download)
+- [Adversarial audios produced by non-adaptive attacks](https://s3l.shanghaitech.edu.cn/speakerguard/non-adaptive-attack.zip)
 
 - Adversarial audios produced by adaptive attacks against different defenses:
 
-    - Time-domain defenses: [[QT]](https://drive.google.com/uc?id=1f9hAYRO1MIm-NNRdKmM44OAokPbMVs_z&export=download) [[AT]](https://drive.google.com/uc?id=1pDhJQFHk7puH7NFRzWBykLkwt-gQEFRr&export=download) [[AS]](https://drive.google.com/uc?id=1d7znPoTCkKQ-rzQrnrfZP1IxRZ7jOx4f&export=download) [[MS]](https://drive.google.com/uc?id=1TzuggGx3Xgb1czcGBv6Zq2KZzMygsvNd&export=download)
+    - Time-domain defenses: [[QT]](https://s3l.shanghaitech.edu.cn/speakerguard/QT-7.zip) [[AT]](https://s3l.shanghaitech.edu.cn/speakerguard/AT-16.zip) [[AS]](https://s3l.shanghaitech.edu.cn/speakerguard/AS-17.zip) [[MS]](https://s3l.shanghaitech.edu.cn/speakerguard/MS-7.zip)
 
-    - Frequency-domain defenses: [[DS]](https://drive.google.com/uc?id=1iVFUA2nej9xu7W0Y759TtssvEjy9R7G0&export=download) [[LPF]](https://drive.google.com/uc?id=1Xg-fYEMDxAM0VkOX7gL0mQnOFHwyi-AS&export=download) [[BPF]](https://drive.google.com/uc?id=1bFgy94zh3xKRLlo5zpo1PgLS6EZrxnBw&export=download)
+    - Frequency-domain defenses: [[DS]](https://s3l.shanghaitech.edu.cn/speakerguard/DS-0_45.zip) [[LPF]](https://s3l.shanghaitech.edu.cn/speakerguard/LPF-4500.zip) [[BPF]](https://s3l.shanghaitech.edu.cn/speakerguard/BPF-150-6000.zip)
 
-    - Speech compression defenses: [[OPUS]](https://drive.google.com/uc?id=1qXvmigK5NfJdtV2GKSu-L9bm_29xlM5y&export=download) [[SPEEX]](https://drive.google.com/uc?id=13sqxpAtOOAdbAgj-tvexv3iEoV3kGbgW&export=download) [[AMR]](https://drive.google.com/uc?id=13nm9JoBlf-uj09tN9HaDOfhV0dG875r4&export=download) [[AAC-V]](https://drive.google.com/uc?id=1i2ZajGzABNuZNryy7RicSWWgRYnLVasr&export=download) [[AAC-C]](https://drive.google.com/uc?id=1UFXk2zNJ7SN5sn-83HCnFpozRlidMGWU&export=download) [[MP3-V]](https://drive.google.com/uc?id=1JyPp6Ya7ncSjeEHtnX8EZC7HJ5iVdR23&export=download) [[MP3-C]](https://drive.google.com/uc?id=1NiYKKMtwAL2JHoMLl83h1fjGloDbV_4G&export=download)
+    - Speech compression defenses: [[OPUS]](https://s3l.shanghaitech.edu.cn/speakerguard/OPUS-8000.zip) [[SPEEX]](https://s3l.shanghaitech.edu.cn/speakerguard/SPEEX-11000.zip) [[AMR]](https://s3l.shanghaitech.edu.cn/speakerguard/AMR-6600.zip) [[AAC-V]](https://s3l.shanghaitech.edu.cn/speakerguard/AAC-V-1.zip) [[AAC-C]](https://s3l.shanghaitech.edu.cn/speakerguard/AAC-C-15000.zip) [[MP3-V]](https://s3l.shanghaitech.edu.cn/speakerguard/MP3-V-4.zip) [[MP3-C]](https://s3l.shanghaitech.edu.cn/speakerguard/MP3-C-24000.zip)
 
-    - Feature-level defense: [[FeCo]](https://drive.google.com/uc?id=1bwz9WuDpv94tj77Zx_tJU_lwjQdwGZA7&export=download)
+    - Feature-level defense: [[FeCo (EOT)]](https://s3l.shanghaitech.edu.cn/speakerguard/FeCo-ok-kmeans-raw-0_2-L2.zip)
  
 For adversarial audios, after unzip, the directory *A-B/X/X-Y/Z* means the audios are crafted by the attack X with the attack paramter Y against the defense A with the defense parameter B on the speaker Z. 
 For example, *FeCo-ok-kmeans-raw-0_2-L2/FGSM/FGSM-0_002-50/1998* means the audios are crafted by FGSM attack with $\varepsilon=0.002$ and EOT_size $r=50$ against the defense FeCo with the defense parameter $cl_m=kmeans$ and $cl_r=0.2$ on the speaker 1998. 
