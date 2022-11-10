@@ -2,6 +2,7 @@ title: SEC4SR
 description: a SECurity evaluation platform FOR Speaker Recognition
 show_downloads: false
 theme: jekyll-theme-hacker
+google_analytics: UA-151915041-3
 
 github:
   is_project_page: true
